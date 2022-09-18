@@ -1,0 +1,188 @@
+
+/*RESPONSIVE LAYOUT*/
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */ 
+@media screen and (max-width: 40em) {
+    #page {
+        max-width: 40em;
+    }
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */ 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    #page {
+        max-width: 64em;
+        min-width: 40.063em;
+    }
+ } 
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */ 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    #page {
+        max-width: 64.063em;
+        min-width: 90em;
+    }
+ } 
+
+/* WEBPAGE BACKGROUND */
+#page {
+    background-color: #FFF;
+}
+
+/*============================================================== BODY =======================================================================*/
+
+body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: normal;
+    font-style: normal;
+    background-color: #FFF;
+    color: black
+}
+
+/*============================================================== HEADER =======================================================================*/
+
+/* HEADER CSS */
+.mainHeader {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 50px;
+}
+.nav-item a:hover, .container-fluid a:hover {
+    text-decoration: none;
+    color: #FFF;
+    filter: brightness(1.1);
+}
+
+#mainNav {
+    border-radius: 4px;
+}
+#searchButton {
+    background-color: mediumseagreen;
+    color: #FFF;
+    transition: 0.2s;
+}
+#searchButton:hover {
+    filter: brightness(1.1);
+}
+
+/*============================================================== FORMS =======================================================================*/
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.formSection h1 {
+    margin-top: 20px;
+    background: linear-gradient(#5c83a6, #1e73be);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #FFF;
+}
+.formSection hr {
+    margin-top: 20px;
+    border: 1px black solid;
+    width: 30%;
+}
+.formSection label {
+    font-weight: bold;
+}
+#numScale {
+    margin-right: 30px;
+}
+
+
+.projectDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.studentDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.studentDetails a {
+    cursor:pointer;
+    text-decoration: none;
+    color: #003399;
+}
+.cardBody {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.cardBody p {
+    margin: auto;
+    align-self: flex-start;
+}
+#justText {
+    font-style: italic;
+    text-align: center;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#logo {
+    text-decoration: none;
+    color: #FFF;
+}
+#headerLogo {
+    width: 8%;
+    margin: auto;
+}
+#footerLogo {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.documentationPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#erDiagram {
+    width: 90%;
+}
+.heading {
+    font-weight: bold;
+}
+.question {
+    font-weight: bold;
+}
+.question, .answer {
+    width: 90%;
+}
+
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.footerSection h1 {
+    margin-top: 20px;
+}
+.footerSection hr {
+    margin-top: 20px;
+    border: 1px black solid;
+    width: 30%;
+}
