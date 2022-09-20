@@ -3,4 +3,4 @@ Web application for businesses to promote internship projects and for students t
 
 ![alt text](https://github.dev/nloc1929/internship-app/blob/main/public/images/8427070.png?raw=true)
 
-![Screenshot](8427070.png)
+![Screenshot](.public/images/8427070.png)
